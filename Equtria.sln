@@ -3,10 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29519.87
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Equtria.SPA", "Equtria.SPA\Equtria.SPA.csproj", "{CFEBD1CE-1E61-4165-999D-33E87FAC36E0}"
-EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentations", "Presentations", "{02961A93-75BE-4D4D-AA49-C0FFFDCFF1D2}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{E58F7A61-FBE2-4EA7-840E-5EE34F4844F5}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCuttingConcerns", "CrossCuttingConcerns", "{53745E64-CBDF-485A-92F1-B0BDBCB7AD33}"
@@ -33,10 +29,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{CFEBD1CE-1E61-4165-999D-33E87FAC36E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{CFEBD1CE-1E61-4165-999D-33E87FAC36E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{CFEBD1CE-1E61-4165-999D-33E87FAC36E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{CFEBD1CE-1E61-4165-999D-33E87FAC36E0}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4AAFB0E6-A767-49A1-B2AD-3DDCF4298810}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4AAFB0E6-A767-49A1-B2AD-3DDCF4298810}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AAFB0E6-A767-49A1-B2AD-3DDCF4298810}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -62,7 +54,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{CFEBD1CE-1E61-4165-999D-33E87FAC36E0} = {02961A93-75BE-4D4D-AA49-C0FFFDCFF1D2}
 		{4AAFB0E6-A767-49A1-B2AD-3DDCF4298810} = {E58F7A61-FBE2-4EA7-840E-5EE34F4844F5}
 		{7BF763B2-06D7-45EF-9973-F6AA17E9458F} = {E58F7A61-FBE2-4EA7-840E-5EE34F4844F5}
 		{6F4EEB1C-36C9-49E2-BD4B-BF286E89ECF7} = {53745E64-CBDF-485A-92F1-B0BDBCB7AD33}
